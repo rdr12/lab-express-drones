@@ -3,7 +3,7 @@ const {Schema, model} = require ("mongoose");
 
 const droneSchema = new Schema({
     image: {
-        data: String, 
+        type: String,  
     },
     name: {
         type: String,

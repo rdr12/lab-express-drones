@@ -1,19 +1,19 @@
 // Iteration #1
 const drones = [
     {
-    image: ("/images/drone1.jpg"),
+    image: "https://github.com/rdr12/lab-express-drones/blob/60a138a77fcbeab528e92401572a69503c8b1719/public/images/drone1.jpg?raw=true",
     name: "Creeper XL 500",
     propellers: 3,
     maxSpeed: 12
 },
   {
-    image: ("/images/drone2.jpg"),
+    image: "https://github.com/rdr12/lab-express-drones/blob/master/public/images/drone2.jpg?raw=true",
     name: "Racer 57",
     propellers: 4,
     maxSpeed: 20
 },
   {
-    image: ("/images/drone3.jpg"),
+    image: "https://github.com/rdr12/lab-express-drones/blob/master/public/images/drone3.jpg?raw=true",
     name: "Courier 3000i",
     propellers: 6,
     maxSpeed: 18
