@@ -24,9 +24,10 @@ router.get('/drones/create', (req, res, next) => {
 router.post('/drones/create', (req, res, next) => {
   // Iteration #3: Add a new drone
   console.log(req.body)
-  const {name, propellers, maxSpeed} = req.body
+  const {image, name, propellers, maxSpeed} = req.body
   
   DroneModel.create({
+    image,
     name,
     propellers,
     maxSpeed
@@ -57,10 +58,11 @@ router.get('/drones/:id/edit', (req, res, next) => {
 
 router.post('/drones/:id/edit', (req, res, next) => {
   // Iteration #4: Update the drone
-  const {name, propellers, maxSpeed} = req.body
+  const {image, name, propellers, maxSpeed} = req.body
   const {id} = req.params
 
   DroneModel.findByIdAndUpdate(id, {
+    image,
     name,
     propellers,
     maxSpeed

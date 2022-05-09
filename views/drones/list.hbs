@@ -16,9 +16,11 @@
 </div>
 <br> --}}
 
-<div class="card text-white bg-dark mb-3 wrap-style" style="width: 18rem;">
-  <img src="{{this.image}}" class="card-img-top" alt="...">
-  <div class="card-body card-style">
+<div id="container">
+<div class="card text-white bg-dark mb-3" style="width: 18rem; ">
+  <img style= "height: 15rem" src="{{this.image}}" class="card-img-top" alt="Drone image" >
+  {{!-- style="height: 13rem" --}}
+  <div class="card-body ">
     <h5 class="card-title">{{this.name}}</h5>
     <p class="card-text">Propellers: {{this.propellers}}</p>
     <p class="card-text">Max Speed: {{this.maxSpeed}}</p>
@@ -30,5 +32,6 @@
 </form>
   </div>
 </div>
-<br>
+</div>
+
 {{/each}}

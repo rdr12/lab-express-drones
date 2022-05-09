@@ -1,6 +1,6 @@
 <h2>Create a new drone</h2>
 
-<form action="/drones/create" method="POST">
+{{!-- <form action="/drones/create" method="POST">
 
 <label for="name">Name:</label>
 <input type="text" name="name">
@@ -13,4 +13,26 @@
 <br>
 <button type="submit">Add</button>
 
+</form> --}}
+
+
+<form action="/drones/create" method="POST">
+  
+  <div class="mb-3">
+    <label for="image" class="form-label">Image:</label>
+    <input type="text" name="image" class="form-control" id="exampleInputPassword1" value="Enter the url from the image.">
+  </div>
+   <div class="mb-3">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" name="name" class="form-control" id="exampleInputPassword1">
+  </div>
+   <div class="mb-3">
+    <label for="propellers" class="form-label">Propellers:</label>
+    <input type="number" name="propellers" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="maxSpeed" class="form-label">Max Speed:</label>
+    <input type="number" name="maxSpeed" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary">Add Drone</button>
 </form>
