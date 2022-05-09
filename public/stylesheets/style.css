@@ -3,6 +3,21 @@ body {
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
+#home {
+  background-image:url("https://camo.githubusercontent.com/e4f8a091d509be9d0c56a9198373f91b17136344edf7156bd5ec8f15506c0a71/68747470733a2f2f73332d65752d776573742d312e616d617a6f6e6177732e636f6d2f69682d6d6174657269616c732f75706c6f6164732f75706c6f61645f39323665373564343566326139393731353266343430313834346233623464352e6a7067");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-clip: border-box;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: first baseline;
+  height: 70vh;
+  align-items: flex-end;
+
+}
+
 a {
   color: green;
   text-decoration: none;
@@ -17,9 +32,7 @@ a:hover {
   margin-right: 20px;
 }
 
-/* .card-style {
-  padding-bottom: 20px;
-} */
+
 
 #container {
   display:flex;
@@ -29,39 +42,14 @@ a:hover {
   align-items: center;
   height: 800px;
   width: 800;
-  /* display: grid; */
-  /* grid-template-columns: 30% 30% 30%; */
-  /* grid-template-rows: 500px 50px 200px; */
-  /* column-gap: 10px; */
-  /* row-gap: 15px; */
-  /* justify-items: center;
-  align-items: start; */
-  /* grid-template-columns: repeat(3, 1fr); */
-  /* grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto); */ 
-
-  /* display: flex;
-  flex-direction: row; */
   
-  
-  /* display:grid;
-  grid-template-columns:3fr;
-  grid-template-rows:2fr;
-  grid-gap:20px; */
-
-
-  /* flex-direction: row; */
-  /* flex-wrap: wrap;
-  align-items: center; */
-  /* justify-content: center; */
-  /* display:flex;
-  flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* flex-direction: column;*/
-  /* align-items: center;  */
-  /* justify-content: center; */
 }
 
 #nav-menu {
   padding-bottom: 100px;
+}
+
+#create-form {
+  max-width: 800px;
+  
 }
